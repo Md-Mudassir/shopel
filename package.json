@@ -1,0 +1,23 @@
+{
+  "name": "shopel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Md-Mudassir/shopel.git"
+  },
+  "keywords": [],
+  "author": "Mohammed Mudassir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Md-Mudassir/shopel/issues"
+  },
+  "homepage": "https://github.com/Md-Mudassir/shopel#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
