@@ -7,7 +7,7 @@ import Message from '../components/Message';
 import { listProductDetails } from '../actions/productActions';
 
 const ProductScreen = ({ history, match }) => {
-  const [qty, setQty] = useState(0);
+  const [qty, setQty] = useState(1);
   const dispatch = useDispatch();
 
   const productDetails = useSelector((state) => state.productDetails);
@@ -69,9 +69,9 @@ const ProductScreen = ({ history, match }) => {
                     <Col>Qty</Col>
                     <Col>
                       <Form.Control as='select' value={qty} onChange={(e) => setQty(e.target.value)}>
-                        {[...Array(product.countInStock).keys()].map((x) => (
-                          <option key={x + 1} value={x + 1}>
-                            {x + 1}
+                        {[...Array(product.countInStock).keys()].map((n) => (
+                          <option key={n + 1} value={n + 1}>
+                            {n + 1}
                           </option>
                         ))}
                       </Form.Control>
