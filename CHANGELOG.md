@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Md-Mudassir/shopel/compare/v1.1.0...v1.1.1) (2020-12-06)
+
+
+### Bug Fixes
+
+* :white_check_mark: ([00ab334](https://github.com/Md-Mudassir/shopel/commit/00ab334e4fff88075504abe25959474f4f24f883))
+
 ## 1.1.0 (2020-12-06)
 
 
